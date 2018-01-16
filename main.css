@@ -11,6 +11,7 @@ body {
 	padding: 80px;
 	font-size: 16px;
 	font-family: sans-serif;
+	/*border: 1px solid black;*/
 
 }
 
@@ -95,6 +96,12 @@ input[type=button] {
 
 }
 
+.search-section {
+
+	/*border: 1px solid black;*/
+
+}
+
 input[type=text] {
 
 	width: 375px;
@@ -146,7 +153,34 @@ input[type=text] {
 
 }
 
+.list {
 
+	position: absolute;
+	top: 230px;
+
+}
+
+.item {
+
+	font-size: 15px;
+	color: grey;
+
+}
+
+.job {
+
+	font-size: 18px;
+	font-weight: bold;
+	color:blue;
+	/*font-weight: 20px;*/
+	
+}
+
+.list a:visited {
+
+	color:purple;
+
+}
 
 
 
